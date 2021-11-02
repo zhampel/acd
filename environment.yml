@@ -1,0 +1,7 @@
+# run: conda env create --prefix ./venv --file environment.yml
+
+dependencies:
+- python=3.8
+- numpy
+- matplotlib
+- scipy
