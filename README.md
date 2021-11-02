@@ -88,6 +88,15 @@ This is an HDF5 file, and if you have the 'h5ls' utility you can see that two ob
 
 Here imgA and imgB are the two 127-band images.
 
+## Environment setup
+
+To prep the python environment for command line usage, use the following within the main repo directory:
+
+```
+$ conda env create --prefix ./venv --file environment.yml
+$ conda activate venv
+```
+
 ## Usage of 'anomchange.py'
 
 An example usage would be to run on the command line:
